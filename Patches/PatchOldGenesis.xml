@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>SRTS Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="SRTSMkIV"]/graphicData/texPath</xpath>
+          <value>
+            <texPath>OldGenesis</texPath>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="SRTSMkIV"]/graphicData/drawSize</xpath>
+          <value>
+            <drawSize>(13,13)</drawSize>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+
+</Patch>
