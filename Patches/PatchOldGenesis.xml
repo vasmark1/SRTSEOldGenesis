@@ -9,13 +9,13 @@
       <success>Always</success>
       <operations>
         <li Class="PatchOperationReplace">
-          <xpath>/Defs/ThingDef[defName="SRTSMkIV"]/graphicData/texPath</xpath>
+          <xpath>/Defs/ThingDef[defName="SRTSMkIV" or defName="SRTSMkIV_Incoming" or defName="SRTSMkIV_BomberRun" or defName="SRTSMkIV_Leaving" or defName="SRTSMkIV_Active"]/graphicData/texPath</xpath>
           <value>
             <texPath>OldGenesis</texPath>
           </value>
         </li>
         <li Class="PatchOperationReplace">
-          <xpath>/Defs/ThingDef[defName="SRTSMkIV"]/graphicData/drawSize</xpath>
+          <xpath>/Defs/ThingDef[defName="SRTSMkIV" or defName="SRTSMkIV_Incoming" or defName="SRTSMkIV_BomberRun" or defName="SRTSMkIV_Leaving" or defName="SRTSMkIV_Active"]/graphicData/drawSize</xpath>
           <value>
             <drawSize>(13,13)</drawSize>
           </value>
